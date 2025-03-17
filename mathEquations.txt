@@ -1,0 +1,507 @@
+1. Arithmetic
+    Operations
+        Addition:
+            a + b = c
+            (Example: 2 + 3 = 5)
+        Subtraction:
+            a – b = c
+            (Example: 7 – 4 = 3)
+        Multiplication:
+            a × b = c
+            (Example: 4 × 3 = 12)
+        Division:
+            a ÷ b = c  (b ≠ 0)
+            (Example: 12 ÷ 4 = 3)
+    Number Types
+        (While not “equations” per se, these properties define the types of numbers you work with.)
+    
+        Irrational/Radical Numbers:
+            Examples:
+            √3, π ≈ 3.14159
+        Rational Numbers:
+            Any number that can be expressed as p/q (e.g., 3/4, –5/8)
+        Integers, Whole, Natural:
+            Integers: …, –2, –1, 0, 1, 2, …
+            Whole: 0, 1, 2, …
+            Natural: 1, 2, 3, …
+    Properties
+        Commutative Property:
+            Addition: a + b = b + a
+            Multiplication: a × b = b × a
+        Associative Property:
+            Addition: (a + b) + c = a + (b + c)
+            Multiplication: (a × b) × c = a × (b × c)
+        Distributive Property:
+            a(b + c) = ab + ac
+    Exponents and Roots
+        Product of Powers:
+            a^m · a^n = a^(m+n)
+        Quotient of Powers:
+            a^m / a^n = a^(m–n)  (a ≠ 0)
+        Power of a Power:
+            (a^m)^n = a^(m·n)
+        Negative Exponent:
+            a^(–n) = 1/a^n
+        Zero Exponent:
+            a^0 = 1  (a ≠ 0)
+        nth Root:
+            √[n]{a} = a^(1/n)
+            (For example, √[3]{8} = 8^(1/3) = 2)
+        Square Root:
+            √a = a^(1/2)
+    Order of Operations (PEDMAS)
+        (No single “equation” but the hierarchy is defined as follows:)
+    
+        Parentheses
+        Exponents
+        Division and Multiplication (from left to right)
+        Addition and Subtraction (from left to right)
+        
+2. Measurement
+    Conversions
+        Length Conversions:
+            1 inch = 2.54 cm
+            1 foot = 0.3048 m
+            1 km = 0.621371 miles
+        Area Conversions:
+            Area of a rectangle: A = l × w
+            1 m² = 10.7639 ft²
+        Volume Conversions:
+            Volume of a rectangular prism: V = l × w × h
+            1 m³ = 35.3147 ft³
+        Mass Conversions:
+            1 kilogram = 2.20462 pounds
+        Time Conversions:
+            1 hour = 60 minutes, 1 minute = 60 seconds
+        Temperature Conversions:
+            °F = (°C × 9/5) + 32
+            °C = (°F – 32) × 5/9
+    Precision & Accuracy
+        Significant Figures:
+            (Rules govern how multiplication/division and addition/subtraction maintain sig figs; for instance, in multiplication, the result should have as many significant figures as the factor with the fewest sig figs.)
+        Error Range/Absolute Error:
+            Error = |measured – true value|
+    Rounding and Estimation
+        Rounding:
+            Example: round(x, n) rounds x to n decimal places.
+        Estimation Example:
+            Approximating π ≈ 3.14 for rough calculations.
+
+3. Geometry
+    Planes (Points, Lines, Angles)
+        Coordinate of a Point:
+            P = (x, y)
+            (Example: (3, 4))
+        Equation of a Line (Slope-Intercept):
+            y = mx + b
+            (Example: y = 2x + 1)
+        Angle Between Two Lines:
+            tanθ = |(m₂ – m₁)/(1 + m₁m₂)|
+    Shapes (2D)
+        Triangle Area:
+            A = ½ · b · h
+        Rectangle Area:
+            A = l · w
+        Parallelogram Area:
+            A = b · h
+        Trapezoid Area:
+            A = ½ · (a + b) · h
+        Regular Polygon Area:
+            A = ½ · P · a
+            (where P is perimeter and a is apothem)
+    Circles
+        Circumference:
+            C = 2πr
+        Area:
+            A = πr²
+        Diameter:
+            d = 2r
+        Arc Length:
+            s = rθ  (θ in radians)
+        Sector Area:
+            A = ½ · r²θ
+    3D Shapes
+        Cube:
+            Volume: V = s³
+            Surface Area: SA = 6s²
+        Rectangular Prism:
+            Volume: V = l · w · h
+            Surface Area: SA = 2(lw + lh + wh)
+        Cylinder:
+            Volume: V = πr²h
+            Lateral Surface Area: L = 2πrh
+            Total Surface Area: SA = 2πr(h + r)
+        Sphere:
+            Volume: V = (4/3)πr³
+            Surface Area: SA = 4πr²
+        Cone:
+            Volume: V = ⅓πr²h
+            Lateral Surface Area: L = πr√(r² + h²)
+    Coordinate Geometry
+        Distance Formula:
+            d = √[(x₂ – x₁)² + (y₂ – y₁)²]
+        Midpoint Formula:
+            M = ((x₁ + x₂)/2, (y₁ + y₂)/2)
+        Slope:
+            m = (y₂ – y₁)/(x₂ – x₁)
+    Transformations
+        Translation:
+            (x, y) → (x + a, y + b)
+        Rotation (about origin):
+            (x, y) → (x cosθ – y sinθ, x sinθ + y cosθ)
+        Reflection:
+            Reflection about the y-axis: (x, y) → (–x, y)
+            Reflection about the x-axis: (x, y) → (x, –y)
+        Dilation:
+            (x, y) → (k·x, k·y)
+        Pythagorean Theorem
+            Right Triangle:
+            a² + b² = c²
+
+4. Pre-Algebra
+    Foundations
+        Divisibility:
+            (If a divides b, then b = a·q, with remainder 0.)
+        Factors & Multiples:
+            (Example: 12 = 2² × 3)
+        Prime Factorization:
+            n = p₁^α₁ · p₂^α₂ · … · pₖ^αₖ
+//Basic Operations (Same as Arithmetic)
+    Expressions, Ratios, and Proportions
+        Simplification:
+            Combine like terms, e.g., 2x + 3x = 5x
+        Ratio:
+            a : b = a/b
+        Proportion:
+            a/b = c/d
+            (Solve: ad = bc)
+
+5. Algebra
+    Expressions and Simplification
+        Polynomial Addition/Multiplication:
+            Example: (x + 2)(x + 3) = x² + 5x + 6
+        Factoring:
+            x² – 9 = (x – 3)(x + 3)
+        Difference of Squares: 
+            a² – b² = (a – b)(a + b)
+    Linear Equations
+        Standard Form:
+            ax + b = 0  → x = –b/a
+        Slope-Intercept Form:
+            y = mx + b
+        Point-Slope Form:
+            y – y₁ = m(x – x₁)
+    Systems of Equations
+        Example (Two Equations):
+            a₁x + b₁y = c₁
+            a₂x + b₂y = c₂
+            (Solve via substitution or elimination.)
+    Quadratic Equations
+        General Form:
+            ax² + bx + c = 0
+        Quadratic Formula:
+            x = (–b ± √(b² – 4ac))/(2a)
+        Completing the Square:
+            x² + bx = (x + b/2)² – (b/2)²
+    Exponents & Logarithms
+        Exponential Laws:
+            a^m · a^n = a^(m+n)
+            (a^m)^n = a^(m·n)
+        Logarithm Definition:
+            log₍b₎(a) = c ⇔ b^c = a
+        Logarithm Properties:
+            log₍b₎(xy) = log₍b₎(x) + log₍b₎(y)
+            log₍b₎(x/y) = log₍b₎(x) – log₍b₎(y)
+            log₍b₎(x^p) = p · log₍b₎(x)
+    Complex Numbers
+        Standard Form:
+            z = a + bi
+        Multiplication:
+            (a + bi)(c + di) = (ac – bd) + (ad + bc)i
+        Division:
+            z₁/z₂ = (z₁·conj(z₂))/(|z₂|²)
+        Polar Form:
+            z = r·e^(iθ), where r = √(a²+b²), θ = arctan(b/a)
+        Conversion Back:
+            a = r cosθ, b = r sinθ
+    Sequences & Series
+        Arithmetic Sequence:
+            aₙ = a₁ + (n – 1)d
+            Sum: Sₙ = n/2 · (a₁ + aₙ)
+        Geometric Sequence:
+            aₙ = a₁ · r^(n – 1)
+            Sum (finite): Sₙ = a₁(1 – rⁿ)/(1 – r) (r ≠ 1)
+            Sum (infinite): S = a₁/(1 – r) (|r| < 1)
+
+6. Trigonometry
+    Trigonometric Functions (Right Triangle Definitions)
+        Sine:
+            sinθ = opposite/hypotenuse
+        Cosine:
+            cosθ = adjacent/hypotenuse
+        Tangent:
+            tanθ = opposite/adjacent = sinθ/cosθ
+        Secant, Cosecant, Cotangent:
+            secθ = 1/cosθ, cscθ = 1/sinθ, cotθ = 1/tanθ
+    Angle Conversions
+        Degrees to Radians:
+            radians = (π/180)·degrees
+        Radians to Degrees:
+            degrees = (180/π)·radians
+    Trigonometric Identities
+        Pythagorean Identity:
+            sin²θ + cos²θ = 1
+        Tangent Identity:
+            1 + tan²θ = sec²θ
+        Cotangent Identity:
+            1 + cot²θ = csc²θ
+        Angle Sum/Difference (Sine):
+            sin(α ± β) = sinα cosβ ± cosα sinβ
+        Angle Sum/Difference (Cosine):
+            cos(α ± β) = cosα cosβ ∓ sinα sinβ
+    Solving Trigonometric Equations
+        General Solution (Sine):
+            sinθ = k → θ = sin⁻¹(k) + 2πn or θ = π – sin⁻¹(k) + 2πn
+        General Solution (Cosine):
+            cosθ = k → θ = cos⁻¹(k) + 2πn or θ = –cos⁻¹(k) + 2πn
+    Laws and Applications
+        Law of Sines:
+            a/sinA = b/sinB = c/sinC
+        Law of Cosines:
+            c² = a² + b² – 2ab cosC
+
+7. Precalculus
+    Advanced Functions
+        Exponential Functions:
+            f(x) = a^x
+            (Example: f(x) = 2^x)
+        Logarithmic Functions:
+            f(x) = log₍a₎(x)
+            (Example: log₍10₎(x))
+        Polynomial Functions:
+            f(x) = aₙxⁿ + ... + a₁x + a₀
+    Transformations
+        Horizontal Shift:
+            f(x – h)
+        Vertical Shift:
+            f(x) + k
+        Stretch/Compression:
+            a · f(x) or f(bx)
+    Summation and Series
+        Sigma Notation:
+            ∑₍i=1₎^n a_i
+        General Term:
+            (Depends on pattern; for arithmetic: a_i = a₁ + (i–1)d)
+    Polar Coordinates and Parametric Equations
+        Polar to Cartesian:
+            x = r cosθ, y = r sinθ
+        Parametric Equations:
+            x = f(t), y = g(t)
+    Introduction to Limits
+        Limit Definition:
+            limₓ→a f(x) = L
+    Vectors (Introductory)
+        Vector Addition:
+            (x₁, y₁) + (x₂, y₂) = (x₁+x₂, y₁+y₂)
+        Scalar Multiplication:
+            k(x, y) = (kx, ky)
+
+8. Calculus 1
+    Limits & Continuity
+        Definition of a Limit:
+            limₓ→a f(x) = L
+        One-Sided Limits:
+            limₓ→a⁺ f(x) or limₓ→a⁻ f(x)
+    Tangent Lines & Rates of Change
+        Tangent Line Equation:
+            y – f(a) = f′(a)(x – a)
+    Derivatives
+        Definition (First Principle):
+            f′(x) = limₕ→0 [f(x+h) – f(x)]/h
+        Power Rule:
+            d/dx (xⁿ) = n·x^(n–1)
+        Product Rule:
+            (fg)′ = f′g + fg′
+        Quotient Rule:
+            (f/g)′ = (f′g – fg′)/g²
+        Chain Rule:
+            d/dx f(g(x)) = f′(g(x))·g′(x)
+    Advanced Derivative Techniques
+        Trigonometric Derivatives:
+            d/dx(sin x) = cos x, d/dx(cos x) = –sin x
+        Inverse Function Derivatives:
+            d/dx(arcsin x) = 1/√(1–x²)
+        Implicit Differentiation:
+            Differentiate both sides of an equation, e.g.,
+            x² + y² = r² → 2x + 2y·dy/dx = 0
+        Logarithmic Differentiation:
+            Taking logs of both sides:
+            y = f(x) → ln y = ln f(x) → y′/y = (f′(x))/f(x)
+    Applications
+        Related Rates:
+            (Set up d/dt equations from geometric relationships.)
+        Optimization:
+            (Find critical points from f′(x) = 0.)
+    Fundamental Theorem of Calculus
+        Fundamental Theorem:
+            ∫ₐᵇ f(x) dx = F(b) – F(a), where F′(x) = f(x)
+    Basic Integration (u-Substitution)
+        Substitution Rule:
+            If u = g(x), then
+            ∫ f(g(x))g′(x) dx = ∫ f(u) du
+
+9. Calculus 2
+    Advanced Integration Techniques
+        Integration by Parts:
+            ∫ u dv = uv – ∫ v du
+        Trigonometric Substitution:
+            For √(a²–x²): x = a sinθ → dx = a cosθ dθ
+        Partial Fractions:
+            Decompose: P(x)/Q(x) = A/(x – r) + …
+        Numerical Integration (Example):
+            Simpson’s Rule: S ≈ (Δx/3)[f(x₀) + 4f(x₁) + 2f(x₂) + ... + f(xₙ)]
+    Applications of Integration
+        Volumes of Revolution:
+            V = π∫ₐᵇ [f(x)]² dx
+        Arc Length:
+            L = ∫ₐᵇ √(1 + [f′(x)]²) dx
+        Surface Area:
+            SA = 2π∫ₐᵇ f(x) √(1 + [f′(x)]²) dx
+    Improper Integrals
+        Definition:
+            ∫ₐ^∞ f(x) dx = lim_{b→∞} ∫ₐᵇ f(x) dx
+    Sequences & Series
+        Geometric Series:
+            ∑ₙ₌₀∞ arⁿ = a/(1–r), |r| < 1
+            Ratio Test:
+            If L = limₙ→∞ |aₙ₊₁/aₙ| < 1, series converges
+            Taylor Series Expansion:
+            f(x) = ∑ₙ₌₀∞ f⁽ⁿ⁾(a)/n!ⁿ
+    Differential Equations (Introduction)
+        Separable ODE:
+            dy/dx = g(x)h(y) → ∫ dy/h(y) = ∫ g(x) dx
+
+10. Calculus 3 (Multivariable Calculus)
+    Vector Algebra
+        Vector Addition:
+            (a₁, a₂, a₃) + (b₁, b₂, b₃) = (a₁+b₁, a₂+b₂, a₃+b₃)
+        Dot Product:
+            a · b = a₁b₁ + a₂b₂ + a₃b₃
+        Cross Product:
+            a × b = (a₂b₃ – a₃b₂, a₃b₁ – a₁b₃, a₁b₂ – a₂b₁)
+    Vector Functions and Curvature
+        Derivative of a Vector Function:
+            r′(t) = (dx/dt, dy/dt, dz/dt)
+        Curvature (κ):
+            κ = |r′(t) × r″(t)| / |r′(t)|³
+    Multivariable Functions
+        Partial Derivatives:
+            ∂f/∂x = lim_{h→0} [f(x+h,y,…)-f(x,y,…)]/h
+        Gradient:
+            ∇f = (f_x, f_y, f_z)
+        Linear Approximation:
+            f(x,y) ≈ f(a,b) + f_x(a,b)(x–a) + f_y(a,b)(y–b)
+    Directional Derivatives
+        Definition:
+            D_uf = ∇f · u  (u is a unit vector)
+    Multiple Integrals
+        Double Integral:
+            ∬_D f(x,y)dA
+        Triple Integral:
+            ∭_V f(x,y,z)dV
+    Vector Calculus Theorems
+        Divergence:
+            div F = ∇ · F = ∂F_x/∂x + ∂F_y/∂y + ∂F_z/∂z
+        Curl:
+            curl F = ∇ × F
+        Green’s Theorem:
+            ∮_C (L dx + M dy) = ∬_D (∂M/∂x – ∂L/∂y) dA
+        Stokes’ Theorem:
+            ∮_C F · dr = ∬_S (curl F) · n dS
+        Gauss’ Divergence Theorem:
+            ∭_V (∇·F) dV = ∬_S F · n dS
+
+11. Matrix
+    Fundamentals and Notations
+        Matrix Notation:
+            A = [a₍ij₎]  (i = row, j = column)
+    Basic Operations
+        Addition:
+            (A + B)₍ij₎ = A₍ij₎ + B₍ij₎
+        Scalar Multiplication:
+            (cA)₍ij₎ = c · A₍ij₎
+        Matrix Multiplication:
+            (AB)₍ij₎ = ∑ₖ A₍ik₎ B₍kj₎
+        Transpose:
+            (Aᵀ)₍ij₎ = A₍ji₎
+    Determinants
+        2×2 Determinant:
+            det(A) = a₁₁a₂₂ – a₁₂a₂₁
+        3×3 Determinant (Sarrus):
+            Write out and sum the products along the diagonals.
+    Inverses
+        2×2 Inverse:
+            A⁻¹ = (1/det(A)) · [ [a₂₂, –a₁₂], [–a₂₁, a₁₁] ]
+    Solving Systems
+        Cramer’s Rule:
+            For a system A·x = b,
+            xᵢ = det(Aᵢ)/det(A),
+            where Aᵢ is A with the i‑th column replaced by b.
+    Eigenvalues and Eigenvectors
+        Characteristic Equation:
+            det(A – λI) = 0
+        Eigenvector Equation:
+            A·v = λv
+    Advanced Topics
+        LU Decomposition, QR Decomposition, SVD:
+            (Algorithms to decompose matrices; not a single equation.)
+        Orthogonal Matrices:
+            AᵀA = I
+        Symmetric Matrices:
+        A = Aᵀ
+
+12. Discrete Mathematics
+    Logic
+        Logical AND/OR/NOT:
+            A ∧ B, A ∨ B, ¬A
+        De Morgan’s Laws:
+            ¬(A ∧ B) = ¬A ∨ ¬B
+            ¬(A ∨ B) = ¬A ∧ ¬B
+    Set Theory
+        Union:
+            A ∪ B = {x | x ∈ A or x ∈ B}
+        Intersection:
+            A ∩ B = {x | x ∈ A and x ∈ B}
+        Complement:
+            Aᶜ = U \ A
+        Cardinality:
+            |A| (the number of elements in A)
+    Complexity (Big O)
+        Big O Notation:
+            f(n) = O(g(n)) if ∃ c, n₀ such that f(n) ≤ c · g(n) for all n ≥ n₀
+    Number Theory
+        Division Algorithm:
+            a = bq + r, 0 ≤ r < b
+        Modular Arithmetic:
+            a ≡ b (mod n)
+            (Meaning n divides a – b)
+        Prime Factorization:
+            Every integer > 1 is the product of primes (Fundamental Theorem of Arithmetic)
+    Boolean Algebra
+        Idempotent Laws:
+            A ∧ A = A, A ∨ A = A
+        Absorption Laws:
+            A ∨ (A ∧ B) = A, A ∧ (A ∨ B) = A
+    Base Conversion
+        Decimal to Binary:
+            Express N in base 10 as:
+                N = dₙ2ⁿ + dₙ₋₁2ⁿ⁻¹ + … + d₀2⁰
+                (Example: 13₁₀ = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 1101₂)
+        Decimal to Octal:
+            N = dₙ8ⁿ + … + d₀8⁰
+            (Example: 83₁₀ = 1×8² + 2×8¹ + 3×8⁰ = 123₈)
+        Decimal to Hexadecimal:
+            N = dₙ16ⁿ + … + d₀16⁰
+            (Example: 255₁₀ = FF₁₆)
+        General Base Conversion:
+            To convert a decimal number N to base b, repeatedly divide by b and record remainders.

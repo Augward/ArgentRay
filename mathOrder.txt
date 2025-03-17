@@ -1,0 +1,194 @@
+Types of Objects
+    Numbers:
+
+        Imaginary Numbers: Represented as i (e.g., 3i)
+        Real Numbers:
+            Irrational/Radical Numbers: e.g., √3, π
+            Rational Numbers: e.g., 1.2, 3/4, –5/8
+                Integers: e.g., –1, 0, 1
+                Whole Numbers: e.g., 0, 1, 2
+                Natural Numbers: e.g., 1, 2, 3
+    
+    Points:
+
+        Single Point: A coordinate, e.g., (0, 0)
+        Two Points: A line segment, e.g., {(0, 0), (1, 1)}
+        2D Shapes: A collection of points in a plane, e.g., {(0, 0), (0, 1), (1, 0)}
+        3D Shapes: Points in space, e.g., {(0, 0, 0), (1, 0, 0), (0, 1, 0), (0, 0, 1)}
+    
+    Angles:
+
+        Measured in Degrees or Radians
+        Coordinates on the unit circle (x & y components)
+        
+    Matrix:
+
+        Represented as arrays within an array or stored in a dictionary
+        Can be used to hold numerical data, vectors, or even more complex objects
+
+Math Sections and Their Subsections
+
+1. Arithmetic
+    Operations:
+        Basic operations: Addition, subtraction, multiplication, division
+    Number Types:
+        Working with natural numbers, integers, fractions, decimals, and percents
+    Properties:
+        Commutative, associative, and distributive laws
+    Exponents:
+        Powers and roots
+    Order of Operations:
+        PEDMAS (Parentheses, Exponents, Division/Multiplication, Addition/Subtraction)
+
+2. Measurement
+    Unit Conversions:
+        Converting between units of length, area, volume, mass, time, and temperature
+    Precision & Accuracy:
+        Significant figures and error ranges
+    Estimation:
+        Rounding and estimation techniques
+
+3. Geometry
+    Planes:
+        Definitions of points, lines, and angles
+    Shapes:
+        2D shapes such as triangles, squares, and other polygons
+    Circles:
+        Properties including diameter, radius, and circumference
+    3D Shapes:
+        Solids such as cubes, cylinders, pyramids, etc.
+    Coordinate Geometry:
+        Distance, midpoint, and slope calculations on the coordinate plane
+    Transformations:
+        Translations, rotations, reflections, dilations, congruence, and similarity
+    Fundamental Theorem:
+        The Pythagorean theorem
+
+4. Pre-Algebra
+    Foundations:
+        Factors, multiples, primes, and divisibility rules
+    Basic Operations:
+        Working with integers, fractions, and decimals
+    Fundamental Concepts:
+        Simple expressions, basic equations, ratios, and proportions
+
+5. Algebra
+    Expressions:
+        Simplification, factoring, and polynomial division
+    Linear Equations:
+        2D linear equations and systems of equations
+    Quadratics:
+        Quadratic formulas, finding roots, and completing the square
+    Exponents & Logarithms:
+        Rules of exponents and properties of logarithms
+    Complex Numbers:
+        Arithmetic operations and polar form representation
+    Sequences & Series:
+        Summations and progression patterns
+
+6. Trigonometry
+    Trigonometric Functions:
+        Sine, cosine, tangent, secant, cosecant, and cotangent
+    Angle Measurements:
+        Working in degrees and radians; unit circle concepts
+    Graphing:
+        Graphs of trigonometric functions and transformations (shifts, stretches, reflections)
+    Identities:
+        Pythagorean identities, sum and difference formulas, and other standard identities
+    Solving Equations:
+        Techniques for solving trigonometric equations
+    Laws and Applications:
+        Law of sines, law of cosines, and using trigonometry to find missing sides/angles
+
+7. Precalculus
+    Advanced Functions:
+        Polynomial, rational, exponential, and logarithmic functions
+    Transformations:
+        Graph shifts, stretches, parabolas, and hyperbolas
+    Summation Patterns:
+        Advanced summation techniques and recognizing patterns
+    Coordinate Systems:
+        Polar coordinates and parametric equations
+    Introduction to Limits:
+        Conceptual understanding of limits (including limits at infinity)
+    Vectors & Matrices:
+        Basic vector operations and an introduction to matrices
+
+8. Calculus 1
+    Limits & Continuity:
+        Understanding limits and continuity of functions
+    Tangent Lines & Rates of Change:
+        Deriving the equation of tangent lines and computing rates
+    Derivatives:
+        Fundamental differentiation rules: linearity, product, quotient, and chain rules
+    Advanced Derivative Techniques:
+        Differentiation of trigonometric, inverse, implicit, and logarithmic functions
+    Applications:
+        Related rates, optimization (max/min), and curve analysis
+    Fundamental Theorem of Calculus:
+        Linking differentiation and integration
+    Basic Integration:
+        Introduction to integration using u-substitution
+
+9. Calculus 2
+    Advanced Integration Techniques:
+        Integration by parts
+        Trigonometric substitution
+        Partial fractions
+        (Optionally, numerical integration)
+    Applications of Integration:
+        Calculating volumes of revolution
+        Determining arc lengths and surface areas
+    Improper Integrals:
+        Techniques for integrating functions over infinite intervals
+    Sequences & Series:
+        Convergence tests (e.g., ratio, comparison, integral tests)
+        Power series and Taylor series expansions
+    Optional Topics:
+        Brief introduction to differential equations
+
+10. Calculus 3
+    Vector Algebra:
+        Coordinates and vectors in 2D and 3D
+        Dot and cross products
+        Linear equations, polar/spherical coordinates
+    Vector Functions:
+        Differentiation of vector functions, including curvature
+    Multivariable Functions:
+        Limits, continuity, and partial derivatives
+        Linear approximations in several variables
+    Gradients & Directional Derivatives:
+        Finding gradients and computing directional derivatives
+    Multiple Integrals:
+        Double integrals (including use of polar coordinates) and triple integrals
+    Vector Calculus Theorems:
+        Divergence, curl, surface integrals, and major theorems (Green’s, Stokes’, etc.)
+
+11. Matrix
+    Fundamentals:
+        Matrix definitions, notations, and types (row, column, square, etc.)
+    Basic Operations:
+        Matrix addition, subtraction, multiplication, scalar multiplication, and transposition
+    Determinants & Inverses:
+        Calculating determinants and matrix inverses
+    Solving Systems:
+        Techniques like Gaussian elimination and Cramer’s rule
+    Eigenvalues & Eigenvectors:
+        Definitions, computation methods, and applications
+    Advanced Topics:
+        Matrix decompositions, orthogonal matrices, symmetric matrices, and related topics
+
+12. Discrete
+    Logic:
+        Propositional and predicate logic
+    Set Theory:
+        Sets, Venn diagrams, and cardinality
+    Complexity:
+        Big O notation for algorithm analysis
+    Number Theory:
+        Divisibility, division with remainder (mod), ceil, floor functions
+        Prime numbers, factoring, LCM, and GCD
+    Boolean Algebra:
+        Logic gates, truth tables, and simplification rules
+    Base Conversion:
+        Converting between bases (decimal, binary, octal, hexadecimal)
