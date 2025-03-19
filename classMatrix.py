@@ -62,8 +62,15 @@ class Matrix:
             elif self.sizeSquare == 2:
                 self.determinant = (self.matrix[0][0] * self.matrix[1][1]) - (self.matrix[1][0] * self.matrix[0][1])
                 
+            elif self.sizeSquare == 3:
+                a = self.matrix[0][0] * ((self.matrix[1][1] * self.matrix[2][2]) - (self.matrix[2][1] * self.matrix[1][2]))
+                b = self.matrix[0][1] * ((self.matrix[1][0] * self.matrix[2][2]) - (self.matrix[2][0] * self.matrix[1][2]))
+                c = self.matrix[0][2] * ((self.matrix[1][0] * self.matrix[2][1]) - (self.matrix[2][0] * self.matrix[1][1]))
+                self.determinant = a - b + c
+                
             else:
-                self.determinant = True
+                raise ValueError("Further Implementation Required for sizes larger than 3")
+                
         else:
             self.determinant = None
             
@@ -132,16 +139,6 @@ class Matrix:
         return Matrix(data = result)
         
     
-    """========================================================================
-    Description: 
-        
-        
-    Inputs:
-        
-        
-    Outputs:
-        
-    ========================================================================"""
     def __radd__(self, other):
         return self + other
           
@@ -168,17 +165,7 @@ class Matrix:
         result = [[self.matrix[i][j] - other.matrix[i][j] for j in range(self.columns)] for i in range(self.rows)]
         return Matrix(data = result)
             
-          
-    """========================================================================
-    Description: 
-        
-        
-    Inputs:
-        
-        
-    Outputs:
-        
-    ========================================================================"""        
+                  
     def __rsub__(self, other):
         return self - other
         
@@ -219,24 +206,14 @@ class Matrix:
         else:
             raise ValueError("Matrices can only be multiplied by matrices or numbers")
             
-            
-    """========================================================================
-    Description: 
-        
-        
-    Inputs:
-        
-        
-    Outputs:
-        
-    ========================================================================"""    
+                
     def __rmul__(self, other):
         return self * other
     
 
 
 
-x = Matrix(1,1, [[1,2],[2]])
+x = Matrix(1,1, [[1,2,5],[2,2,5],[3,2,-100]])
 print(x)
 print(x.determinant)
 
