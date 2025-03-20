@@ -5,7 +5,7 @@
 File name: classMatrix
 Author: Augustin Ward
 Created: 2025-16-03
-Version: 1.0.2
+Version: 1.0.3
 Description: Class that establishes a Matrix of some size
 
 License: NA
@@ -27,7 +27,7 @@ class Matrix:
     Attributes:
         
     ========================================================================"""
-    def __init__(self, rows = 1, columns = 1, data = None):
+    def __init__(self, data = 1, second = 1):
         
         if type(data) == list: 
             self.rows = len(data)
@@ -38,11 +38,16 @@ class Matrix:
                 while len(row) < self.columns:
                     row.append(0)
                 self.matrix.append(row)
+                
+            [[round(self.matrix[i][j], 12) for i in range(self.columns)] for j in range(self.rows)]
             
+        elif type(data) == int and type(second) == int:
+            self.rows = data
+            self.columns = second
+            self.matrix = [[0] * second for i in range(data)]
+        
         else:
-            self.rows = rows
-            self.columns = columns
-            self.matrix = [[0] * columns for i in range(rows)]
+            raise ValueError("Improper format to build matrix")
         
         self.size = [self.rows, self.columns]
         
@@ -60,16 +65,17 @@ class Matrix:
                 self.determinant = self.matrix[0][0]
                 
             elif self.sizeSquare == 2:
-                self.determinant = (self.matrix[0][0] * self.matrix[1][1]) - (self.matrix[1][0] * self.matrix[0][1])
+                self.determinant = round((self.matrix[0][0] * self.matrix[1][1]) - (self.matrix[1][0] * self.matrix[0][1]), 12)
                 
             elif self.sizeSquare == 3:
                 a = self.matrix[0][0] * ((self.matrix[1][1] * self.matrix[2][2]) - (self.matrix[2][1] * self.matrix[1][2]))
                 b = self.matrix[0][1] * ((self.matrix[1][0] * self.matrix[2][2]) - (self.matrix[2][0] * self.matrix[1][2]))
                 c = self.matrix[0][2] * ((self.matrix[1][0] * self.matrix[2][1]) - (self.matrix[2][0] * self.matrix[1][1]))
-                self.determinant = a - b + c
+                self.determinant = round(a - b + c, 12)
                 
             else:
-                raise ValueError("Further Implementation Required for sizes larger than 3")
+                self.determinant = None
+                print("Further determinant implementation required for sizes larger than 3x3")
                 
         else:
             self.determinant = None
@@ -77,9 +83,6 @@ class Matrix:
         
         
         
-
-
-
     """========================================================================
     Description: 
         
@@ -98,16 +101,6 @@ class Matrix:
         return string
     
     
-    """========================================================================
-    Description: 
-        
-        
-    Inputs:
-        
-        
-    Outputs:
-        
-    ========================================================================"""
     def transpose__str(self):
         string = "\nTranspose Matrix:\n"
         for row in self.transpose:
@@ -128,7 +121,7 @@ class Matrix:
     Outputs:
         
     ========================================================================"""
-    def __add__(self, other): # Just adds each matrix pos together
+    def __add__(self, other):
         
         if type(other) != Matrix:
             raise ValueError("Matrices can only be added to other matrices")
@@ -213,7 +206,10 @@ class Matrix:
 
 
 
-x = Matrix(1,1, [[1,2,5],[2,2,5],[3,2,-100]])
+y = Matrix()
+print(y)
+
+x = Matrix([[1,2,5],[2,2,5.01],[3,2,-1]])
 print(x)
 print(x.determinant)
 
