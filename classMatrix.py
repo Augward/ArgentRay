@@ -15,6 +15,21 @@ Dependencies: math, cmath
 '''
     |Matrix →
         Arrays in an Array or Dictionary
+    
+# TODO: →
+    # Inverse
+    
+    # Row Echelon Form
+    
+    # Reduced Row Echelon Form
+    
+    # Diagonal Matrix
+    
+    # LU decomposition
+    
+    # Eignevalues
+    
+    # Eigenvectors
 """
 import math
 import cmath
@@ -206,29 +221,10 @@ class Matrix:
 
 
 
+#Tests
 y = Matrix()
 print(y)
 
 x = Matrix([[1,2,5],[2,2,5.01],[3,2,-1]])
 print(x)
 print(x.determinant)
-
-
-
-    
-    # Inverse
-    
-    # Row Echelon Form
-    
-    # Reduced Row Echelon Form
-    
-    # Diagonal Matrix
-    
-    # LU decomposition
-    
-    # Eignevalues
-    
-    # Eigenvectors
-    
-    
-    
